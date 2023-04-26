@@ -1,5 +1,6 @@
 # 🧶 Green Commits  
 
+
 [![Build Status](https://github.com/1stlast69/greeen/workflows/ci/badge.svg?branch=master)](https://github.com/1stlast69/greeen/actions)
 
 Automatically keep GitHub commit status green.
