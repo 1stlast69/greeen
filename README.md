@@ -1,8 +1,6 @@
 # 🧶 Green Commits  
 
-
-[![Build Status](https://github.com/1stlast69/greeen/workflows/ci/badge.svg?branch=master)](https://github.com/1stlast69/greeen/actions)
-
+[![Commit](https://github.com/1stlast69/greeen/actions/workflows/Commit.yml/badge.svg?branch=main)](https://github.com/1stlast69/greeen/actions/workflows/Commit.yml)
 Automatically keep GitHub commit status green.
 
 > a commit a day keeps your girlfriend away. **changed to** a commit a day keeps your girlfriend from going away. 😢
