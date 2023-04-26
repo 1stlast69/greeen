@@ -16,21 +16,21 @@ jobs:
         uses: actions/checkout@v2
 
     #- name: Auto green
-    - name: Email
-      run: |
+      - name: Email
+        run: |
           git config --local user.email ${{ secrets.EMAIL }}
-    - name: User Name
-      run: |
+      - name: User Name
+        run: |
          git config --local user.name ${{ secrets.NAME }}
-    - name: origin
-      run: |
+      - name: origin
+        run: |
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-    - name: pull
-      run: |
+      - name: pull
+        run: |
           git pull --rebase
-    - name: comit
-      run: |
-        git commit --allow-empty -m "a commit a day keeps your girlfriend from going away"
-    - name: push
-      run: |
+      - name: comit
+        run: |
+         git commit --allow-empty -m "a commit a day keeps your girlfriend from going away"
+      - name: push
+        run: |
           git push
